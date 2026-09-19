@@ -1,0 +1,7 @@
+{
+  "ok": true,
+  "engineVersion": "1.1.0",
+  "json": "D:\\Desktop\\챗지피티프로젝트들\\스토어뮤직\\.readiness-analysis\\runs\\20260909-071346-01\\readiness-analysis.json",
+  "markdown": "D:\\Desktop\\챗지피티프로젝트들\\스토어뮤직\\.readiness-analysis\\runs\\20260909-071346-01\\readiness-analysis.md",
+  "composite": 47.78
+}

@@ -1,0 +1,23 @@
+{
+  "audit_id": "ALL-STAGES-20260909",
+  "observed_at_utc": "2026-09-09T08:43:09Z",
+  "completion_claim": false,
+  "overall_status": "NOT_COMPLETE",
+  "stages": [
+    {"stage_id": "STAGE-1-BASELINE", "status": "LOCAL_EVIDENCE_ONLY", "evidence": "stage-01/evidence/stage-01-execution-20260909.json"},
+    {"stage_id": "STAGE-2-FOUNDATION", "status": "BLOCKED_EXTERNAL", "evidence": "stage-02/evidence/stage-02-execution-20260909.json"},
+    {"stage_id": "STAGE-3-CORE", "status": "PARTIAL_EVIDENCE", "evidence": "stage-03/evidence/stage-03-execution-20260909.json"},
+    {"stage_id": "STAGE-4-QUALITY", "status": "PARTIAL_EVIDENCE", "evidence": "stage-04/evidence/stage-04-execution-20260909.json"},
+    {"stage_id": "STAGE-5-RELEASE", "status": "BLOCKED_BY_STAGE4_AND_EXTERNAL", "evidence": "stage-05/evidence/stage-05-execution-20260909.json"}
+  ],
+  "unresolved": [
+    "actual external catalog and R2 readback",
+    "Android physical playback and 20-channel long-run logs",
+    "5 participating stores and 14 observation days",
+    "PostgreSQL 16 production endpoint and migration",
+    "WeSaver Google OAuth origin and Worker secret",
+    "web billing key and payment verification",
+    "old ChatGPT Site ownership and recoverable source"
+  ],
+  "interpretation": "각 단계 명령을 실행했지만 외부 증거가 필요한 조건은 완료로 승격하지 않음"
+}

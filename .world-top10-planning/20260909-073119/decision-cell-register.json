@@ -1,0 +1,50 @@
+{
+  "schema_version": "v3.2-artifact",
+  "run_id": "20260909-073119",
+  "generated_at_utc": "2026-09-09T07:31:19Z",
+  "project_fingerprint": "41143e95bbf57435f4efc27399361fd0ab2f8ac491062d65179714ce2e9ae866",
+  "artifact_type": "decision-cell-register",
+  "source_artifact_ids": [
+    "LOCAL-PRD",
+    "LOCAL-STATUS"
+  ],
+  "records": [
+    {
+      "id": "DEC-01",
+      "decision": "WeSaver OAuth origin 승인",
+      "owner": "사장님",
+      "reversible": false,
+      "blockedBy": "Google account action",
+      "status": "open"
+    },
+    {
+      "id": "DEC-02",
+      "decision": "첫 집중 상권",
+      "owner": "사장님",
+      "reversible": false,
+      "blockedBy": "5 participating stores",
+      "status": "open"
+    },
+    {
+      "id": "DEC-03",
+      "decision": "PG sandbox/live test account",
+      "owner": "사장님",
+      "reversible": true,
+      "blockedBy": "billing credentials",
+      "status": "open"
+    },
+    {
+      "id": "DEC-04",
+      "decision": "실제 Android 기기 확보",
+      "owner": "사장님",
+      "reversible": true,
+      "blockedBy": "device connection",
+      "status": "open"
+    }
+  ],
+  "counts": {
+    "records": 4
+  },
+  "unknowns": [],
+  "warnings": []
+}

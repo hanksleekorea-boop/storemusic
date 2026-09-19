@@ -1,0 +1,157 @@
+{
+  "schema_version": "v3.3-artifact",
+  "run_id": "20260909-073119",
+  "generated_at_utc": "2026-09-09T07:31:19Z",
+  "project_fingerprint": "41143e95bbf57435f4efc27399361fd0ab2f8ac491062d65179714ce2e9ae866",
+  "artifact_type": "task-readiness-register",
+  "source_artifact_ids": [
+    "LOCAL-PRD"
+  ],
+  "records": [
+    {
+      "task_id": "TASK-001",
+      "status": "READY",
+      "field_count": 96,
+      "ready": true,
+      "reason": "AI-only command and evidence path available"
+    },
+    {
+      "task_id": "TASK-002",
+      "status": "READY",
+      "field_count": 96,
+      "ready": true,
+      "reason": "AI-only command and evidence path available"
+    },
+    {
+      "task_id": "TASK-003",
+      "status": "READY",
+      "field_count": 96,
+      "ready": true,
+      "reason": "AI-only command and evidence path available"
+    },
+    {
+      "task_id": "TASK-004",
+      "status": "READY",
+      "field_count": 96,
+      "ready": true,
+      "reason": "AI-only command and evidence path available"
+    },
+    {
+      "task_id": "TASK-005",
+      "status": "READY",
+      "field_count": 96,
+      "ready": true,
+      "reason": "AI-only command and evidence path available"
+    },
+    {
+      "task_id": "TASK-006",
+      "status": "BLOCKED_BY_DECISION",
+      "field_count": 96,
+      "ready": false,
+      "reason": "DISCOVERY or owner action required"
+    },
+    {
+      "task_id": "TASK-007",
+      "status": "READY",
+      "field_count": 96,
+      "ready": true,
+      "reason": "AI-only command and evidence path available"
+    },
+    {
+      "task_id": "TASK-008",
+      "status": "BLOCKED_BY_DECISION",
+      "field_count": 96,
+      "ready": false,
+      "reason": "DISCOVERY or owner action required"
+    },
+    {
+      "task_id": "TASK-009",
+      "status": "BLOCKED_BY_DECISION",
+      "field_count": 96,
+      "ready": false,
+      "reason": "DISCOVERY or owner action required"
+    },
+    {
+      "task_id": "TASK-010",
+      "status": "BLOCKED_BY_DECISION",
+      "field_count": 96,
+      "ready": false,
+      "reason": "DISCOVERY or owner action required"
+    },
+    {
+      "task_id": "TASK-011",
+      "status": "BLOCKED_BY_DECISION",
+      "field_count": 96,
+      "ready": false,
+      "reason": "DISCOVERY or owner action required"
+    },
+    {
+      "task_id": "TASK-012",
+      "status": "BLOCKED_BY_DECISION",
+      "field_count": 96,
+      "ready": false,
+      "reason": "DISCOVERY or owner action required"
+    },
+    {
+      "task_id": "TASK-013",
+      "status": "READY",
+      "field_count": 96,
+      "ready": true,
+      "reason": "AI-only command and evidence path available"
+    },
+    {
+      "task_id": "TASK-014",
+      "status": "READY",
+      "field_count": 96,
+      "ready": true,
+      "reason": "AI-only command and evidence path available"
+    },
+    {
+      "task_id": "TASK-015",
+      "status": "BLOCKED_BY_DECISION",
+      "field_count": 96,
+      "ready": false,
+      "reason": "DISCOVERY or owner action required"
+    },
+    {
+      "task_id": "TASK-016",
+      "status": "BLOCKED_BY_DECISION",
+      "field_count": 96,
+      "ready": false,
+      "reason": "DISCOVERY or owner action required"
+    },
+    {
+      "task_id": "TASK-017",
+      "status": "BLOCKED_BY_DECISION",
+      "field_count": 96,
+      "ready": false,
+      "reason": "DISCOVERY or owner action required"
+    },
+    {
+      "task_id": "TASK-018",
+      "status": "READY",
+      "field_count": 96,
+      "ready": true,
+      "reason": "AI-only command and evidence path available"
+    },
+    {
+      "task_id": "TASK-019",
+      "status": "READY",
+      "field_count": 96,
+      "ready": true,
+      "reason": "AI-only command and evidence path available"
+    },
+    {
+      "task_id": "TASK-020",
+      "status": "BLOCKED_BY_DECISION",
+      "field_count": 96,
+      "ready": false,
+      "reason": "DISCOVERY or owner action required"
+    }
+  ],
+  "counts": {
+    "records": 20
+  },
+  "unknowns": [],
+  "warnings": []
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "v3.2-artifact",
+  "run_id": "20260909-070752",
+  "generated_at_utc": "2026-09-09T07:07:52Z",
+  "project_fingerprint": "213b510a3f16e65da0764198356169de53823611f38a89bb519f6884960c6131",
+  "artifact_type": "x10-workload-ledger",
+  "source_artifact_ids": [
+    "LOCAL-PRD",
+    "LOCAL-STATUS"
+  ],
+  "records": [
+    {
+      "workstream": "research_sources",
+      "target": 10,
+      "actual": 10,
+      "status": "met"
+    },
+    {
+      "workstream": "comparison_dimensions",
+      "target": 7,
+      "actual": 7,
+      "status": "met"
+    },
+    {
+      "workstream": "gap_register",
+      "target": 100,
+      "actual": 10,
+      "status": "shortfall"
+    },
+    {
+      "workstream": "task_cards",
+      "target": 100,
+      "actual": 10,
+      "status": "shortfall"
+    },
+    {
+      "workstream": "edge_cases",
+      "target": 10000,
+      "actual": 10000,
+      "status": "generated_virtual"
+    }
+  ],
+  "counts": {
+    "records": 5
+  },
+  "unknowns": [
+    "No objective global ranking data."
+  ],
+  "warnings": []
+}

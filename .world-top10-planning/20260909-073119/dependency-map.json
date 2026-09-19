@@ -1,0 +1,55 @@
+{
+  "schema_version": "v3.2-artifact",
+  "run_id": "20260909-073119",
+  "generated_at_utc": "2026-09-09T07:31:19Z",
+  "project_fingerprint": "41143e95bbf57435f4efc27399361fd0ab2f8ac491062d65179714ce2e9ae866",
+  "artifact_type": "dependency-map",
+  "source_artifact_ids": [
+    "LOCAL-PRD",
+    "LOCAL-STATUS"
+  ],
+  "records": [
+    {
+      "from": "Google origin + secret",
+      "to": "auth session",
+      "blocks": [
+        "owner onboarding",
+        "dashboard data"
+      ]
+    },
+    {
+      "from": "PostgreSQL 16 endpoint",
+      "to": "credits ledger",
+      "blocks": [
+        "metered billing",
+        "refund ledger"
+      ]
+    },
+    {
+      "from": "PG live test",
+      "to": "paid activation",
+      "blocks": [
+        "commercial release"
+      ]
+    },
+    {
+      "from": "Android device + live audio",
+      "to": "watchdog evidence",
+      "blocks": [
+        "silent-playback guarantee"
+      ]
+    },
+    {
+      "from": "5 stores + 14 days",
+      "to": "neighborhood adjustment",
+      "blocks": [
+        "local value activation"
+      ]
+    }
+  ],
+  "counts": {
+    "records": 5
+  },
+  "unknowns": [],
+  "warnings": []
+}

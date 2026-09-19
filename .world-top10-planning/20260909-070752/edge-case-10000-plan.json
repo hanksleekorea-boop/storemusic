@@ -1,0 +1,24 @@
+{
+  "schema_version": "v3.2-artifact",
+  "run_id": "20260909-070752",
+  "generated_at_utc": "2026-09-09T07:07:52Z",
+  "project_fingerprint": "213b510a3f16e65da0764198356169de53823611f38a89bb519f6884960c6131",
+  "artifact_type": "edge-case-10000-plan",
+  "source_artifact_ids": [
+    "LOCAL-PRD",
+    "LOCAL-STATUS"
+  ],
+  "records": [
+    {
+      "generator": "deterministic modular product of time/weather/day/store/override/rms/creditZone",
+      "count": 10000,
+      "unique": true,
+      "execution": "JSONL generated; not real-user evidence"
+    }
+  ],
+  "counts": {
+    "records": 1
+  },
+  "unknowns": [],
+  "warnings": []
+}

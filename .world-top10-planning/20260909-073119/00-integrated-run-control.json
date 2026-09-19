@@ -1,0 +1,43 @@
+{
+  "schema_version": "v3.3-artifact",
+  "run_id": "20260909-073119",
+  "generated_at_utc": "2026-09-09T07:31:19Z",
+  "project_fingerprint": "41143e95bbf57435f4efc27399361fd0ab2f8ac491062d65179714ce2e9ae866",
+  "artifact_type": "integrated-run-control",
+  "source_artifact_ids": [
+    "LOCAL-PRD",
+    "LOCAL-DEVPLAN",
+    "LOCAL-STATUS"
+  ],
+  "records": [
+    {
+      "run_id": "20260909-073119",
+      "mode": "END_TO_END",
+      "reason": "세계 톱 10·제품기획·5단계 계획과 출시 준비 감사를 함께 요구함",
+      "active_engines": [
+        "ENGINE_B_WORLD_TOP10",
+        "ENGINE_C_READINESS"
+      ],
+      "inactive_engines": [
+        "ENGINE_A_TOP3"
+      ],
+      "project": "매장 소리 (AI Harmony)",
+      "public_url": "https://freestoremusic.scanners.cc",
+      "previous_run_reused": "20260909-071346",
+      "user_request_field": "blank; pasted v3.3 document treated as request per system note",
+      "external_writes": 0,
+      "product_code_changes": 0,
+      "status": "PARTIAL_EVIDENCE",
+      "resume_at": "DISCOVERY-001"
+    }
+  ],
+  "counts": {
+    "records": 1
+  },
+  "unknowns": [
+    "실제 Google 로그인·PG·PostgreSQL·Android·live audio·5개 매장 없음"
+  ],
+  "warnings": [
+    "v3.3 requires 800 candidates/1,600 indicators; scope is marked X10_PARTIAL_SCOPE rather than padded."
+  ]
+}

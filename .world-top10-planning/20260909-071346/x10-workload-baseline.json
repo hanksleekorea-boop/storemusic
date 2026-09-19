@@ -1,0 +1,51 @@
+{
+  "schema_version": "v3.2-artifact",
+  "run_id": "20260909-071346",
+  "generated_at_utc": "2026-09-09T07:13:46Z",
+  "project_fingerprint": "213b510a3f16e65da0764198356169de53823611f38a89bb519f6884960c6131",
+  "artifact_type": "x10-workload-baseline",
+  "source_artifact_ids": [
+    "LOCAL-PRD",
+    "LOCAL-STATUS"
+  ],
+  "records": [
+    {
+      "dimension": "candidate_count",
+      "baseline": 1,
+      "target": 10,
+      "observed": 10,
+      "multiplier": 10
+    },
+    {
+      "dimension": "comparison_dimensions",
+      "baseline": 1,
+      "target": 7,
+      "observed": 7,
+      "multiplier": 7
+    },
+    {
+      "dimension": "requirements",
+      "baseline": 10,
+      "target": 100,
+      "observed": 10,
+      "multiplier": 1,
+      "shortfall": true
+    },
+    {
+      "dimension": "virtual_cases",
+      "baseline": 1000,
+      "target": 10000,
+      "observed": 10000,
+      "multiplier": 10
+    }
+  ],
+  "counts": {
+    "records": 4
+  },
+  "unknowns": [
+    "Original plan quantities are not fully available as a machine-readable baseline."
+  ],
+  "warnings": [
+    "Only candidate count and virtual-case count meet 10x; requirement/task breadth is below the aspirational 10x contract."
+  ]
+}

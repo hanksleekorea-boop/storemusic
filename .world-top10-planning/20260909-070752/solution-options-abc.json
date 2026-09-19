@@ -1,0 +1,48 @@
+{
+  "schema_version": "v3.2-artifact",
+  "run_id": "20260909-070752",
+  "generated_at_utc": "2026-09-09T07:07:52Z",
+  "project_fingerprint": "213b510a3f16e65da0764198356169de53823611f38a89bb519f6884960c6131",
+  "artifact_type": "solution-options-abc",
+  "source_artifact_ids": [
+    "LOCAL-PRD",
+    "LOCAL-STATUS"
+  ],
+  "records": [
+    {
+      "option": "A",
+      "name": "증거 우선 상용화",
+      "actions": [
+        "Google/DB/PG 연결",
+        "Android RMS 실측",
+        "법률 검토"
+      ],
+      "decision": "recommended",
+      "reason": "P0 갭을 직접 해소"
+    },
+    {
+      "option": "B",
+      "name": "정적 UX 확장",
+      "actions": [
+        "추가 화면·카피·가이드"
+      ],
+      "decision": "secondary",
+      "reason": "핵심 런타임 미검증 상태에서는 가치 증명이 약함"
+    },
+    {
+      "option": "C",
+      "name": "시장 파일럿 우선",
+      "actions": [
+        "5개 매장 모집",
+        "14일 관측"
+      ],
+      "decision": "parallel_after_A0",
+      "reason": "지역 보정 활성 조건을 채움"
+    }
+  ],
+  "counts": {
+    "records": 3
+  },
+  "unknowns": [],
+  "warnings": []
+}

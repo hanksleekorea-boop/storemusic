@@ -1,0 +1,6 @@
+workstream,target,actual,status
+research_sources,10,10,met
+comparison_dimensions,7,7,met
+gap_register,100,10,shortfall
+task_cards,100,10,shortfall
+edge_cases,10000,10000,generated_virtual

@@ -1,0 +1,60 @@
+{
+  "schema_version": "v3.2-service-baseline",
+  "run_id": "20260909-073119",
+  "generated_at_utc": "2026-09-09T07:31:19Z",
+  "project_fingerprint": "41143e95bbf57435f4efc27399361fd0ab2f8ac491062d65179714ce2e9ae866",
+  "artifact_type": "service-baseline",
+  "source_artifact_ids": [
+    "LOCAL-PRD",
+    "LOCAL-DEVPLAN",
+    "LOCAL-STATUS",
+    "LOCAL-PUBLIC-VERIFY",
+    "LOCAL-NPM-TEST"
+  ],
+  "records": [
+    {
+      "id": "BASE-01",
+      "subject": "product_definition",
+      "value": "AI-generated background music for small cafés, restaurants, salons and gyms; staff uses only calm/lively controls; billing is metered by audible output.",
+      "evidence": "docs/PRD.md; README.md",
+      "evidence_level": "작성"
+    },
+    {
+      "id": "BASE-02",
+      "subject": "catalog_and_engine",
+      "value": "800 tracks across 20 weighted channels; fixed autoDial → hoodDelta → clamp → staff override → clamp order; outside-hours stage 1.",
+      "evidence": "docs/PRD.md; src/engine.js",
+      "evidence_level": "로컬"
+    },
+    {
+      "id": "BASE-03",
+      "subject": "public_runtime",
+      "value": "Cloudflare Worker maejang-sori-preview serves 117 static files at freestoremusic.scanners.cc; no executable bindings; backend/payment are not connected.",
+      "evidence": "docs/FINAL_DOMAIN_OPEN_2026-09-08.md; scripts/verify_cloudflare_public.cjs",
+      "evidence_level": "대상환경(정적 공개)"
+    },
+    {
+      "id": "BASE-04",
+      "subject": "local_verification",
+      "value": "npm test: 35 test files passed; engine exhaustive 60,480 cases; this does not prove audio, R2, Google login, PG or physical-device behavior.",
+      "evidence": "local command output recorded 2026-09-08",
+      "evidence_level": "로컬"
+    },
+    {
+      "id": "BASE-05",
+      "subject": "known_blockers",
+      "value": "Google origin approval/secret, PostgreSQL endpoint, PG live test, real Google login, real Android device and live audio remain unverified.",
+      "evidence": "docs/GOOGLE_ACCOUNT_EXECUTION_2026-09-08.md; .cloudflare-migration/run-state.json",
+      "evidence_level": "로컬/대상환경 점검"
+    }
+  ],
+  "counts": {
+    "records": 5
+  },
+  "unknowns": [
+    "ACE-Step measured candidates are excluded from this run per current user instruction; no live audio was available."
+  ],
+  "warnings": [
+    "Old PRD validation tables describe an earlier pre-Cloudflare state; newer operational evidence documents the current static deployment."
+  ]
+}

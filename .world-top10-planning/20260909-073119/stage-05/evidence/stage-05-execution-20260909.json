@@ -1,0 +1,88 @@
+{
+  "stage_id": "STAGE-5-RELEASE",
+  "observed_at_utc": "2026-09-09T08:43:09Z",
+  "status": "BLOCKED_BY_STAGE4_AND_EXTERNAL",
+  "completion_claim": false,
+  "commands": [
+    {
+      "command": "npm run content:verify",
+      "exit_code": 1,
+      "result": {
+        "stage2_complete": false,
+        "eligible_tracks": 0,
+        "reason": "800 eligible tracks and per-channel full listening evidence required"
+      }
+    },
+    {
+      "command": "npm run content:audit",
+      "exit_code": 1,
+      "result": {
+        "target": 800,
+        "manifest_rows": 800,
+        "generated": 0,
+        "numeric_pass": 0,
+        "human_pass": 0,
+        "eligible": 0,
+        "full_listening_complete": false,
+        "missing_audio": 800
+      }
+    },
+    {
+      "command": "npm run hosting:check",
+      "exit_code": 0,
+      "result": {
+        "external_writes_allowed": false,
+        "output_bytes": 879905,
+        "output_files": 117
+      }
+    },
+    {
+      "command": "npm run cloudflare:check",
+      "exit_code": 0,
+      "result": "10 origin 계약 + 16 API 보안 + 15 공개 자산 계약 통과; 제공자 쓰기 없음"
+    },
+    {
+      "command": "npm run cloudflare:inventory",
+      "exit_code": 0,
+      "result": {
+        "account_http_status": 200,
+        "matching_worker": "maejang-sori-preview",
+        "worker_count": 28,
+        "subscriptions_http_status": 403,
+        "subscription_evidence": "unavailable"
+      }
+    },
+    {
+      "command": "npm run cloudflare:verify",
+      "exit_code": 0,
+      "result": {
+        "origin": "https://freestoremusic.scanners.cc",
+        "files": 117,
+        "routes": 17,
+        "runtime": "static-preview",
+        "backend_available": false,
+        "payment_available": false,
+        "production_account_api": "NOT_CONNECTED"
+      }
+    }
+  ],
+  "decommission": {
+    "old_chatgpt_site_deleted": false,
+    "reason": "원본 관리 NOT_FOUND 및 소유권·복구 자료 미확인; HTTP 404를 삭제 증거로 사용하지 않음"
+  },
+  "migration_gate": {
+    "preview_ready": false,
+    "cutover_ready": false,
+    "cutover_executed": false,
+    "post_cutover_verified": false,
+    "status": "WAITING_FOR_USER"
+  },
+  "blocking_conditions": [
+    "STAGE4_QUALITY_EVIDENCE_MISSING",
+    "GOOGLE_OAUTH_ORIGIN_REJECTED",
+    "POSTGRESQL16_AND_PAYMENT_UNCONFIGURED",
+    "REAL_DEVICE_AND_PWA_NOT_VERIFIED",
+    "OLD_SITE_OWNERSHIP_UNVERIFIED"
+  ],
+  "next_gate": "Stage 2~4의 실제 증거와 운영 계정·데이터·결제·복구 자료가 모두 연결된 뒤 출시·이전·폐기 판정을 재실행"
+}

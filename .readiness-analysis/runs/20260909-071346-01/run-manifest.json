@@ -1,0 +1,50 @@
+{
+  "schema_version": "v3.2-readiness-run",
+  "run_id": "20260909-071346-01",
+  "generated_at_utc": "2026-09-09T07:13:46Z",
+  "project_fingerprint": "213b510a3f16e65da0764198356169de53823611f38a89bb519f6884960c6131",
+  "artifact_type": "readiness-run-manifest",
+  "source_artifact_ids": [
+    "LOCAL-PRD",
+    "LOCAL-STATUS",
+    "ENGINE-REMOTE-1.1.0",
+    "LENS-2.1.0"
+  ],
+  "records": [
+    {
+      "file": "project-evidence.json",
+      "status": "generated"
+    },
+    {
+      "file": "readiness-analysis.json",
+      "status": "generated"
+    },
+    {
+      "file": "readiness-analysis.md",
+      "status": "generated"
+    },
+    {
+      "file": "readiness-analysis.audit.md",
+      "status": "generated"
+    }
+  ],
+  "counts": {
+    "engine_exit_code": 0
+  },
+  "unknowns": [
+    "실제 인증/결제/DB/Android/live audio"
+  ],
+  "warnings": [
+    "Engine is the currently published 1.1.0; earlier handoff text referenced 1.0.1."
+  ],
+  "engine": {
+    "url": "https://hanksleekorea-boop.github.io/readiness-hub/engine/readiness-engine.mjs",
+    "version": "1.1.0",
+    "sha256": "a6a5da2d9e7c5e2fb01294e61e1114f803580df3452ba3e2a12caa9223348bd0"
+  },
+  "lens": {
+    "url": "https://hanksleekorea-boop.github.io/readiness-hub/engine/lens-core-v2.1.json",
+    "version": "2.1.0",
+    "sha256": "ba293f43a4e12c4f0eb58f654cfb9fa57a586a629b1fb51233a2a5b58d46c094"
+  }
+}

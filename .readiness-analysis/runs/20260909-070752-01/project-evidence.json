@@ -1,0 +1,2237 @@
+{
+  "schema": "crh-project-evidence/v1",
+  "assessedAt": "2026-09-08",
+  "scope": "all",
+  "project": {
+    "name": "매장 소리 (AI Harmony)",
+    "repository": "local workspace",
+    "description": "소규모 매장용 AI 생성 배경음악 서비스. 정적 Cloudflare 공개와 로컬 엔진/테스트는 확인했으나 상용 인증·결제·오디오 런타임은 미검증.",
+    "urls": {
+      "web": "https://freestoremusic.scanners.cc",
+      "mobile": null
+    },
+    "features": [
+      {
+        "name": "정적 공개 도메인",
+        "platform": "PC 웹",
+        "status": "대상환경 검증",
+        "evidence": "verify_cloudflare_public.cjs / verify_final_domain_browser.cjs"
+      },
+      {
+        "name": "엔진 계산 순서",
+        "platform": "공통",
+        "status": "로컬 검증",
+        "evidence": "npm test; 60,480 cases"
+      },
+      {
+        "name": "Google WeSaver OAuth",
+        "platform": "공통",
+        "status": "미검증",
+        "evidence": "origin not allowed / runtime off"
+      },
+      {
+        "name": "Android Media3 오디오",
+        "platform": "모바일",
+        "status": "미검증",
+        "evidence": "connected_device_count=0"
+      }
+    ]
+  },
+  "direction": {
+    "model": "b2b",
+    "market": "kr",
+    "pay": "pg",
+    "pf": "web",
+    "stage": "ga",
+    "sens": "mid",
+    "team": "s",
+    "edge": "ux",
+    "when": "m3"
+  },
+  "evidence": {
+    "mobile": {
+      "f01": {
+        "score": 1,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "f02": {
+        "score": 0,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "f03": {
+        "score": 0,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "f04": {
+        "score": 1,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "f05": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (f05)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "f06": {
+        "score": 2,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "f07": {
+        "score": 1,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "f08": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "f09": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "f12": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (f12)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "f13": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (f13)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "f14": {
+        "score": 1,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "f15": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (f15)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "f16": {
+        "score": 1,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "f17": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "f18": {
+        "score": 1,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "q01": {
+        "score": 3,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "q02": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "q03": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "q04": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "q05": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "q06": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "q07": {
+        "score": 1,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "q08": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "q09": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "p01": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "p02": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "p03": {
+        "score": 3,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "p04": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "p05": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "p06": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "s01": {
+        "score": 4,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "s02": {
+        "score": 0,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "s03": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "s04": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "s05": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "s06": {
+        "score": 3,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "s07": {
+        "score": 2,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "s08": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "s09": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "s10": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "m01": {
+        "score": 3,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "m02": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "m03": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "m04": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "m05": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "m06": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "m07": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "m08": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (m08)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "m09": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "m10": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (m10)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "m11": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (m11)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "m13": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "m14": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "m15": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "m16": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (m16)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "m17": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "m18": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "l01": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "l02": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "l03": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "l04": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "l05": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "l06": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "l07": {
+        "score": 2,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "l08": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "l09": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "l10": {
+        "score": 2,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "l11": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "l13": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "l14": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (l14)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "l15": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "l16": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (l16)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "l17": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (l17)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "l18": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (l18)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "l19": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (l19)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "l20": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (l20)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "l21": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "r01": {
+        "score": 3,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "r02": {
+        "score": 2,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "r03": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "r04": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (r04)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "r05": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (r05)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "r06": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (r06)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "r07": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (r07)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "u01": {
+        "score": 2,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "u02": {
+        "score": 3,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "u03": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "u04": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "u05": {
+        "score": 2,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "u06": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "u07": {
+        "score": 2,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "u10": {
+        "score": 3,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "u11": {
+        "score": 2,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "u12": {
+        "score": 2,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "u13": {
+        "score": 2,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "u14": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "u15": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "o01": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "o02": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "o03": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "o04": {
+        "score": 1,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "o05": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "o06": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "o07": {
+        "score": 2,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "o08": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "o09": {
+        "score": 2,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "o10": {
+        "score": 2,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "o11": {
+        "score": 2,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "o12": {
+        "score": 1,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "o13": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "o14": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "o15": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (o15)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "o16": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "b01": {
+        "score": 4,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "b02": {
+        "score": 2,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "b03": {
+        "score": 2,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "b04": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "b05": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "b06": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "b07": {
+        "score": 2,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "b08": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "b09": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (b09)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "b10": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "n01": {
+        "score": 3,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "n02": {
+        "score": 3,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "n03": {
+        "score": 2,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "n04": {
+        "score": 2,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "n05": {
+        "score": 2,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "n06": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (n06)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "n07": {
+        "score": 2,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "n08": {
+        "score": 2,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "n09": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (n09)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "n11": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (n11)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "n12": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "s101": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (s101)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "s102": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (s102)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "s103": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (s103)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "s104": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (s104)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "s105": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (s105)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "s106": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (s106)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "s107": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (s107)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "s108": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (s108)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "s109": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (s109)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "s110": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (s110)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "s111": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (s111)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "r101": {
+        "score": 1,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "r102": {
+        "score": 1,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "r103": {
+        "score": 1,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "r104": {
+        "score": 1,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "r105": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "r106": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "r107": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (r107)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "r108": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "r109": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "a101": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (a101)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "a102": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (a102)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "a103": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (a103)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "a104": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (a104)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "a105": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (a105)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "a106": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (a106)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "a107": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (a107)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "a108": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (a108)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "a109": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (a109)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "a110": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (a110)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "a111": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (a111)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "g101": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (g101)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "g102": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (g102)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "g103": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (g103)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "g104": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (g104)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "g105": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (g105)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "g106": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (g106)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "g107": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (g107)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "g108": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (g108)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "g109": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (g109)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "g110": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (g110)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "g111": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (g111)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "g112": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (g112)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      }
+    },
+    "web": {
+      "f01": {
+        "score": 1,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "f02": {
+        "score": 0,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "f03": {
+        "score": 0,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "f04": {
+        "score": 1,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "f05": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (f05)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "f06": {
+        "score": 2,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "f07": {
+        "score": 1,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "f10": {
+        "score": 2,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "f11": {
+        "score": 2,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "f12": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (f12)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "f13": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (f13)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "f14": {
+        "score": 1,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "f15": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (f15)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "f16": {
+        "score": 1,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "f18": {
+        "score": 1,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "q01": {
+        "score": 3,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "q02": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "q03": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "q04": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "q05": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "q06": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "q07": {
+        "score": 1,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "q10": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "q11": {
+        "score": 2,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "p01": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "p02": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "p03": {
+        "score": 3,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "p07": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "p08": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "p09": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "p10": {
+        "score": 3,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "s01": {
+        "score": 4,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "s02": {
+        "score": 0,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "s03": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "s04": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "s05": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "s06": {
+        "score": 3,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "s07": {
+        "score": 2,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "s08": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "s09": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "s11": {
+        "score": 2,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "s12": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "m01": {
+        "score": 3,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "m02": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "m03": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "m04": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "m05": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "m06": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "m07": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "m08": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (m08)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "m09": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "m12": {
+        "score": 1,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "m13": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "m14": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "m15": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "m16": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (m16)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "m17": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "m18": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "m19": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (m19)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "l01": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "l02": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "l03": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "l04": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "l05": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "l06": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "l07": {
+        "score": 2,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "l08": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "l09": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "l10": {
+        "score": 2,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "l12": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "l13": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "l14": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (l14)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "l15": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "l16": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (l16)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "l17": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (l17)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "l18": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (l18)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "l19": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (l19)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "l20": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (l20)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "l21": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "r01": {
+        "score": 3,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "r02": {
+        "score": 2,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "r03": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "r08": {
+        "score": 2,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "r09": {
+        "score": 1,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "r10": {
+        "score": 2,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "u01": {
+        "score": 2,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "u02": {
+        "score": 3,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "u03": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "u04": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "u05": {
+        "score": 2,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "u08": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "u09": {
+        "score": 2,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "u10": {
+        "score": 3,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "u11": {
+        "score": 2,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "u12": {
+        "score": 2,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "u13": {
+        "score": 2,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "u14": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "o01": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "o02": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "o03": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "o04": {
+        "score": 1,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "o05": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "o06": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "o07": {
+        "score": 2,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "o08": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "o09": {
+        "score": 2,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "o10": {
+        "score": 2,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "o11": {
+        "score": 2,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "o12": {
+        "score": 1,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "o13": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "o14": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "o15": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (o15)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "o16": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "b01": {
+        "score": 4,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "b02": {
+        "score": 2,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "b03": {
+        "score": 2,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "b04": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "b05": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "b06": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "b07": {
+        "score": 2,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "b08": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "b09": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (b09)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "b10": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "n01": {
+        "score": 3,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "n02": {
+        "score": 3,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "n03": {
+        "score": 2,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "n04": {
+        "score": 2,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "n05": {
+        "score": 2,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "n06": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (n06)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "n07": {
+        "score": 2,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "n08": {
+        "score": 2,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "n09": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (n09)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "n10": {
+        "score": 2,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "n11": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (n11)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "n12": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "s101": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (s101)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "s102": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (s102)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "s103": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (s103)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "s104": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (s104)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "s105": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (s105)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "s106": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (s106)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "s107": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (s107)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "s108": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (s108)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "s109": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (s109)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "s110": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (s110)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "s111": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (s111)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "r101": {
+        "score": 1,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "r102": {
+        "score": 1,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "r103": {
+        "score": 1,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "r104": {
+        "score": 1,
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "r105": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "r106": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "r107": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (r107)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "r108": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "r109": {
+        "score": "unknown",
+        "tier": "self",
+        "note": "Evidence assembled from docs/PRD.md, docs/DEVPLAN.md, docs/FINAL_DOMAIN_OPEN_2026-09-08.md, npm test and public verification records; no live auth/audio/PG evidence."
+      },
+      "a101": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (a101)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "a102": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (a102)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "a104": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (a104)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "a105": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (a105)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "a106": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (a106)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "a107": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (a107)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "a108": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (a108)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "a109": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (a109)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "a110": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (a110)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "a111": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (a111)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "g101": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (g101)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "g102": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (g102)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "g103": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (g103)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "g104": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (g104)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "g105": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (g105)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "g106": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (g106)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "g107": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (g107)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "g108": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (g108)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "g109": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (g109)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "g110": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (g110)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "g111": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (g111)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      },
+      "g112": {
+        "score": "na",
+        "tier": "auto",
+        "observedAt": "2026-09-08",
+        "note": "제품 범위에서 의도적으로 제공하지 않음 (g112)",
+        "naReason": "현재 PRD가 이 기능을 제품 범위에서 제외함"
+      }
+    }
+  },
+  "benchmark": {
+    "ours": {
+      "trust": 2,
+      "reach": 1,
+      "price": 5,
+      "local": 4
+    },
+    "comparators": [
+      {
+        "name": "Rockbot",
+        "scores": {
+          "feat": 5,
+          "ux": 4,
+          "perf": 3,
+          "trust": 4,
+          "reach": 4,
+          "price": 3,
+          "monet": 3,
+          "local": 5
+        }
+      },
+      {
+        "name": "Mood Media",
+        "scores": {
+          "feat": 5,
+          "ux": 4,
+          "perf": 3,
+          "trust": 4,
+          "reach": 4,
+          "price": 4,
+          "monet": 3,
+          "local": 5
+        }
+      },
+      {
+        "name": "Pandora CloudCover",
+        "scores": {
+          "feat": 5,
+          "ux": 4,
+          "perf": 3,
+          "trust": 4,
+          "reach": 4,
+          "price": 4,
+          "monet": 3,
+          "local": 5
+        }
+      },
+      {
+        "name": "SiriusXM Music for Business",
+        "scores": {
+          "feat": 4,
+          "ux": 3,
+          "perf": 3,
+          "trust": 4,
+          "reach": 4,
+          "price": 4,
+          "monet": 3,
+          "local": 4
+        }
+      },
+      {
+        "name": "SoundMachine",
+        "scores": {
+          "feat": 4,
+          "ux": 4,
+          "perf": 3,
+          "trust": 4,
+          "reach": 4,
+          "price": 4,
+          "monet": 3,
+          "local": 4
+        }
+      }
+    ]
+  }
+}

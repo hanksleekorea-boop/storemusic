@@ -1,0 +1,84 @@
+{
+  "schema_version": "v3.2-artifact",
+  "run_id": "20260909-070752",
+  "generated_at_utc": "2026-09-09T07:07:52Z",
+  "project_fingerprint": "213b510a3f16e65da0764198356169de53823611f38a89bb519f6884960c6131",
+  "artifact_type": "benchmark-statistics",
+  "source_artifact_ids": [
+    "SRC-01",
+    "SRC-02",
+    "SRC-03",
+    "SRC-04",
+    "SRC-05",
+    "SRC-06",
+    "SRC-07",
+    "SRC-08",
+    "SRC-09",
+    "SRC-10"
+  ],
+  "records": [
+    {
+      "dimension": "핵심가치/콘텐츠",
+      "ours": 3,
+      "comparator_mean": 4.2,
+      "delta": -1.2,
+      "n": 10,
+      "method": "arithmetic mean of analyst-coded 0–5 scores"
+    },
+    {
+      "dimension": "자동화·제어",
+      "ours": 5,
+      "comparator_mean": 3.9,
+      "delta": 1.1,
+      "n": 10,
+      "method": "arithmetic mean of analyst-coded 0–5 scores"
+    },
+    {
+      "dimension": "가격접근성",
+      "ours": 5,
+      "comparator_mean": 3.4,
+      "delta": 1.6,
+      "n": 10,
+      "method": "arithmetic mean of analyst-coded 0–5 scores"
+    },
+    {
+      "dimension": "신뢰·라이선스",
+      "ours": 2,
+      "comparator_mean": 3.8,
+      "delta": -1.8,
+      "n": 10,
+      "method": "arithmetic mean of analyst-coded 0–5 scores"
+    },
+    {
+      "dimension": "운영/확장",
+      "ours": 2,
+      "comparator_mean": 4,
+      "delta": -2,
+      "n": 10,
+      "method": "arithmetic mean of analyst-coded 0–5 scores"
+    },
+    {
+      "dimension": "지역 적합성",
+      "ours": 4,
+      "comparator_mean": 3.8,
+      "delta": 0.2,
+      "n": 10,
+      "method": "arithmetic mean of analyst-coded 0–5 scores"
+    },
+    {
+      "dimension": "출시 장벽",
+      "ours": 3,
+      "comparator_mean": 4.4,
+      "delta": -1.4,
+      "n": 10,
+      "method": "arithmetic mean of analyst-coded 0–5 scores"
+    }
+  ],
+  "counts": {
+    "records": 7
+  },
+  "unknowns": [],
+  "warnings": [
+    "Small, non-random comparator set; no confidence interval claimed."
+  ]
+}

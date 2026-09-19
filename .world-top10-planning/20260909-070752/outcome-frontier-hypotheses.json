@@ -1,0 +1,39 @@
+{
+  "schema_version": "v3.2-artifact",
+  "run_id": "20260909-070752",
+  "generated_at_utc": "2026-09-09T07:07:52Z",
+  "project_fingerprint": "213b510a3f16e65da0764198356169de53823611f38a89bb519f6884960c6131",
+  "artifact_type": "outcome-frontier-hypotheses",
+  "source_artifact_ids": [
+    "LOCAL-PRD",
+    "SRC-01",
+    "SRC-02",
+    "SRC-03",
+    "SRC-06"
+  ],
+  "records": [
+    {
+      "id": "H-01",
+      "hypothesis": "두 버튼만으로 직원 개입 시간을 월정액 경쟁 서비스보다 줄일 수 있다",
+      "measure": "직원 조작 횟수·중단률",
+      "status": "untested"
+    },
+    {
+      "id": "H-02",
+      "hypothesis": "실제 소리 난 시간 종량제가 소규모 매장의 결제 거부를 낮춘다",
+      "measure": "유료 전환·시간당 사용량",
+      "status": "untested"
+    },
+    {
+      "id": "H-03",
+      "hypothesis": "5곳·14일 후 hoodDelta가 완주율을 개선한다",
+      "measure": "완주율 전후 비교",
+      "status": "blocked_until_pilot"
+    }
+  ],
+  "counts": {
+    "records": 3
+  },
+  "unknowns": [],
+  "warnings": []
+}

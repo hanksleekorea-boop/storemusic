@@ -1,0 +1,64 @@
+{
+  "schema_version": "v3.3-artifact",
+  "run_id": "20260909-073119",
+  "generated_at_utc": "2026-09-09T07:31:19Z",
+  "project_fingerprint": "41143e95bbf57435f4efc27399361fd0ab2f8ac491062d65179714ce2e9ae866",
+  "artifact_type": "five-stage-detail-ledger",
+  "source_artifact_ids": [
+    "LOCAL-PRD",
+    "LOCAL-DEVPLAN"
+  ],
+  "records": [
+    {
+      "metric": "stage_count",
+      "required": 5,
+      "actual": 5,
+      "status": "met"
+    },
+    {
+      "metric": "stage_document_sections",
+      "required": 24,
+      "actual": 24,
+      "status": "met_per_stage"
+    },
+    {
+      "metric": "tasks",
+      "required": 50,
+      "actual": 20,
+      "status": "X10_PARTIAL_SCOPE"
+    },
+    {
+      "metric": "fields_per_task",
+      "required": 96,
+      "actual": 96,
+      "status": "met_per_card"
+    },
+    {
+      "metric": "microsteps_per_task",
+      "required": 12,
+      "actual": 12,
+      "status": "met_per_task"
+    },
+    {
+      "metric": "test_cases",
+      "required": 240,
+      "actual": 240,
+      "status": "met_for_plan"
+    },
+    {
+      "metric": "ready_task_card_completeness",
+      "required": 100,
+      "actual": 100,
+      "status": "met_as_document"
+    }
+  ],
+  "counts": {
+    "records": 7
+  },
+  "unknowns": [
+    "Ready does not mean implemented."
+  ],
+  "warnings": [
+    "Plan has 20 evidence-grounded tasks; 50-task X10 target is intentionally not padded."
+  ]
+}

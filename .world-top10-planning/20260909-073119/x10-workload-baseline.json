@@ -1,0 +1,104 @@
+{
+  "schema_version": "v3.3-artifact",
+  "run_id": "20260909-073119",
+  "generated_at_utc": "2026-09-09T07:31:19Z",
+  "project_fingerprint": "41143e95bbf57435f4efc27399361fd0ab2f8ac491062d65179714ce2e9ae866",
+  "artifact_type": "x10-workload-baseline",
+  "source_artifact_ids": [
+    "LOCAL-PRD",
+    "LOCAL-DEVPLAN",
+    "SRC-01",
+    "SRC-02",
+    "SRC-03",
+    "SRC-04",
+    "SRC-05",
+    "SRC-06",
+    "SRC-07",
+    "SRC-08",
+    "SRC-09",
+    "SRC-10"
+  ],
+  "records": [
+    {
+      "dimension": "world_candidates",
+      "target": 800,
+      "actual": 10,
+      "multiplier": 0.0125,
+      "status": "X10_PARTIAL_SCOPE",
+      "reason": "공식·동일 문제 영역으로 확인된 10개 비교군만 사용"
+    },
+    {
+      "dimension": "common_atomic_indicators",
+      "target": 1600,
+      "actual": 7,
+      "multiplier": 0.004375,
+      "status": "X10_PARTIAL_SCOPE",
+      "reason": "이번 비교척도는 7개 핵심 차원"
+    },
+    {
+      "dimension": "core_atomic_indicators",
+      "target": 100,
+      "actual": 7,
+      "multiplier": 0.07,
+      "status": "shortfall"
+    },
+    {
+      "dimension": "specialized_views",
+      "target": 50,
+      "actual": 7,
+      "multiplier": 0.14,
+      "status": "shortfall"
+    },
+    {
+      "dimension": "task_variants",
+      "target": 50,
+      "actual": 20,
+      "multiplier": 0.4,
+      "status": "shortfall"
+    },
+    {
+      "dimension": "decision_cells",
+      "target": 400,
+      "actual": 20,
+      "multiplier": 0.05,
+      "status": "shortfall"
+    },
+    {
+      "dimension": "task_card_fields",
+      "target": 96,
+      "actual": 96,
+      "multiplier": 1,
+      "status": "met_per_card"
+    },
+    {
+      "dimension": "virtual_edge_cases",
+      "target": 10000,
+      "actual": 10000,
+      "multiplier": 10,
+      "status": "generated_virtual"
+    },
+    {
+      "dimension": "negative_samples",
+      "target": 100,
+      "actual": 0,
+      "multiplier": 0,
+      "status": "planned_not_executed"
+    },
+    {
+      "dimension": "search_saturation_rounds",
+      "target": 20,
+      "actual": 1,
+      "multiplier": 0.05,
+      "status": "saturation_documented"
+    }
+  ],
+  "counts": {
+    "records": 10
+  },
+  "unknowns": [
+    "실제 시장 순위·매출·점유율·부정 표본 거부 결과"
+  ],
+  "warnings": [
+    "X10_COMPLETE 금지; 이번 실행 판정은 X10_PARTIAL_SCOPE."
+  ]
+}

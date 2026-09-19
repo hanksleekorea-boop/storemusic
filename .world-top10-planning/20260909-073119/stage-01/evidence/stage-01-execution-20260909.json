@@ -1,0 +1,13 @@
+{
+  "stage_id": "STAGE-1-BASELINE",
+  "observed_at_utc": "2026-09-09T08:43:09Z",
+  "status": "LOCAL_EVIDENCE_ONLY",
+  "completion_claim": false,
+  "checks": [
+    {"command": "npm test", "exit_code": 0, "result": "전체 로컬 35개 파일 통과"},
+    {"check": "v3.3 stage README structure", "result": "5개 단계 × 24절 및 tasks/tests/evidence/rollback/handoff 폴더 존재"},
+    {"check": "development task cards", "result": "20개 카드, 카드당 96필드"}
+  ],
+  "limitation": "기준선·문서·자동검사 증거이며 대상환경 운영 완료가 아님",
+  "next_gate": "Stage 2의 실제 수용 자료와 이 단계 증거를 함께 보존"
+}

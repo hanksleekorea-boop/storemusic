@@ -1,0 +1,32 @@
+{
+  "stage_id": "STAGE-2-FOUNDATION",
+  "observed_at_utc": "2026-09-09T08:42:48Z",
+  "status": "BLOCKED_EXTERNAL",
+  "completion_claim": false,
+  "checks": [
+    {
+      "command": "npm run content:verify",
+      "exit_code": 1,
+      "result": {
+        "stage2_complete": false,
+        "eligible_tracks": 0,
+        "reason": "800 eligible tracks and per-channel full listening evidence required"
+      }
+    },
+    {
+      "command": "npm run content:audit",
+      "exit_code": 1,
+      "result": {
+        "manifest_rows": 800,
+        "generated": 0,
+        "numeric_pass": 0,
+        "human_pass": 0,
+        "eligible": 0,
+        "full_listening_complete": false,
+        "missing_audio": 800
+      }
+    }
+  ],
+  "limitation": "콘텐츠 생성은 계획에서 제외되어 있으며, 외부 제공 음원·R2 검증 자료가 없어 Stage 2를 완료할 수 없음",
+  "next_gate": "실제 수용 가능한 외부 카탈로그와 사람 청취·R2 readback 증거 연결"
+}

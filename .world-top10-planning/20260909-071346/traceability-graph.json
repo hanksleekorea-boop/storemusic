@@ -1,0 +1,148 @@
+{
+  "schema_version": "v3.2-artifact",
+  "run_id": "20260909-071346",
+  "generated_at_utc": "2026-09-09T07:13:46Z",
+  "project_fingerprint": "213b510a3f16e65da0764198356169de53823611f38a89bb519f6884960c6131",
+  "artifact_type": "traceability-graph",
+  "source_artifact_ids": [
+    "LOCAL-PRD",
+    "LOCAL-STATUS"
+  ],
+  "records": [
+    {
+      "source": "GAP-01",
+      "service": "SVC-MAEJANG-SORI",
+      "field": "auth/db",
+      "metric": "METRIC-001",
+      "gap": "GAP-01",
+      "blueprint": "BP-001",
+      "improvement": "IMP-001",
+      "requirement": "REQ-001",
+      "task": "TASK-001",
+      "test": "TEST-001",
+      "evidence": null
+    },
+    {
+      "source": "GAP-02",
+      "service": "SVC-MAEJANG-SORI",
+      "field": "billing",
+      "metric": "METRIC-002",
+      "gap": "GAP-02",
+      "blueprint": "BP-002",
+      "improvement": "IMP-002",
+      "requirement": "REQ-002",
+      "task": "TASK-002",
+      "test": "TEST-002",
+      "evidence": null
+    },
+    {
+      "source": "GAP-03",
+      "service": "SVC-MAEJANG-SORI",
+      "field": "playback",
+      "metric": "METRIC-003",
+      "gap": "GAP-03",
+      "blueprint": "BP-003",
+      "improvement": "IMP-003",
+      "requirement": "REQ-003",
+      "task": "TASK-003",
+      "test": "TEST-003",
+      "evidence": null
+    },
+    {
+      "source": "GAP-04",
+      "service": "SVC-MAEJANG-SORI",
+      "field": "locality",
+      "metric": "METRIC-004",
+      "gap": "GAP-04",
+      "blueprint": "BP-004",
+      "improvement": "IMP-004",
+      "requirement": "REQ-004",
+      "task": "TASK-004",
+      "test": "TEST-004",
+      "evidence": null
+    },
+    {
+      "source": "GAP-05",
+      "service": "SVC-MAEJANG-SORI",
+      "field": "compliance",
+      "metric": "METRIC-005",
+      "gap": "GAP-05",
+      "blueprint": "BP-005",
+      "improvement": "IMP-005",
+      "requirement": "REQ-005",
+      "task": "TASK-005",
+      "test": "TEST-005",
+      "evidence": null
+    },
+    {
+      "source": "GAP-06",
+      "service": "SVC-MAEJANG-SORI",
+      "field": "operations",
+      "metric": "METRIC-006",
+      "gap": "GAP-06",
+      "blueprint": "BP-006",
+      "improvement": "IMP-006",
+      "requirement": "REQ-006",
+      "task": "TASK-006",
+      "test": "TEST-006",
+      "evidence": null
+    },
+    {
+      "source": "GAP-07",
+      "service": "SVC-MAEJANG-SORI",
+      "field": "ux",
+      "metric": "METRIC-007",
+      "gap": "GAP-07",
+      "blueprint": "BP-007",
+      "improvement": "IMP-007",
+      "requirement": "REQ-007",
+      "task": "TASK-007",
+      "test": "TEST-007",
+      "evidence": null
+    },
+    {
+      "source": "GAP-08",
+      "service": "SVC-MAEJANG-SORI",
+      "field": "growth",
+      "metric": "METRIC-008",
+      "gap": "GAP-08",
+      "blueprint": "BP-008",
+      "improvement": "IMP-008",
+      "requirement": "REQ-008",
+      "task": "TASK-008",
+      "test": "TEST-008",
+      "evidence": null
+    },
+    {
+      "source": "GAP-09",
+      "service": "SVC-MAEJANG-SORI",
+      "field": "content",
+      "metric": "METRIC-009",
+      "gap": "GAP-09",
+      "blueprint": "BP-009",
+      "improvement": "IMP-009",
+      "requirement": "REQ-009",
+      "task": "TASK-009",
+      "test": "TEST-009",
+      "evidence": null
+    },
+    {
+      "source": "GAP-10",
+      "service": "SVC-MAEJANG-SORI",
+      "field": "recommendation",
+      "metric": "METRIC-010",
+      "gap": "GAP-10",
+      "blueprint": "BP-010",
+      "improvement": "IMP-010",
+      "requirement": "REQ-010",
+      "task": "TASK-010",
+      "test": "TEST-010",
+      "evidence": null
+    }
+  ],
+  "counts": {
+    "records": 10
+  },
+  "unknowns": [],
+  "warnings": []
+}

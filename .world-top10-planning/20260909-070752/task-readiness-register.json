@@ -1,0 +1,98 @@
+{
+  "schema_version": "v3.2-artifact",
+  "run_id": "20260909-070752",
+  "generated_at_utc": "2026-09-09T07:07:52Z",
+  "project_fingerprint": "213b510a3f16e65da0764198356169de53823611f38a89bb519f6884960c6131",
+  "artifact_type": "task-readiness-register",
+  "source_artifact_ids": [
+    "LOCAL-PRD",
+    "LOCAL-STATUS"
+  ],
+  "records": [
+    {
+      "task_id": "TASK-001",
+      "ready": false,
+      "reason": "외부 권한 또는 대상환경 증거 필요",
+      "field_contract_count": 64,
+      "filled_fields": 16,
+      "acceptance": "TEST-001"
+    },
+    {
+      "task_id": "TASK-002",
+      "ready": false,
+      "reason": "외부 권한 또는 대상환경 증거 필요",
+      "field_contract_count": 64,
+      "filled_fields": 16,
+      "acceptance": "TEST-002"
+    },
+    {
+      "task_id": "TASK-003",
+      "ready": false,
+      "reason": "외부 권한 또는 대상환경 증거 필요",
+      "field_contract_count": 64,
+      "filled_fields": 16,
+      "acceptance": "TEST-003"
+    },
+    {
+      "task_id": "TASK-004",
+      "ready": false,
+      "reason": "외부 권한 또는 대상환경 증거 필요",
+      "field_contract_count": 64,
+      "filled_fields": 16,
+      "acceptance": "TEST-004"
+    },
+    {
+      "task_id": "TASK-005",
+      "ready": false,
+      "reason": "외부 권한 또는 대상환경 증거 필요",
+      "field_contract_count": 64,
+      "filled_fields": 16,
+      "acceptance": "TEST-005"
+    },
+    {
+      "task_id": "TASK-006",
+      "ready": false,
+      "reason": "외부 권한 또는 대상환경 증거 필요",
+      "field_contract_count": 64,
+      "filled_fields": 16,
+      "acceptance": "TEST-006"
+    },
+    {
+      "task_id": "TASK-007",
+      "ready": false,
+      "reason": "외부 권한 또는 대상환경 증거 필요",
+      "field_contract_count": 64,
+      "filled_fields": 16,
+      "acceptance": "TEST-007"
+    },
+    {
+      "task_id": "TASK-008",
+      "ready": false,
+      "reason": "외부 권한 또는 대상환경 증거 필요",
+      "field_contract_count": 64,
+      "filled_fields": 16,
+      "acceptance": "TEST-008"
+    },
+    {
+      "task_id": "TASK-009",
+      "ready": false,
+      "reason": "외부 권한 또는 대상환경 증거 필요",
+      "field_contract_count": 64,
+      "filled_fields": 16,
+      "acceptance": "TEST-009"
+    },
+    {
+      "task_id": "TASK-010",
+      "ready": false,
+      "reason": "외부 권한 또는 대상환경 증거 필요",
+      "field_contract_count": 64,
+      "filled_fields": 16,
+      "acceptance": "TEST-010"
+    }
+  ],
+  "counts": {
+    "records": 10
+  },
+  "unknowns": [],
+  "warnings": []
+}

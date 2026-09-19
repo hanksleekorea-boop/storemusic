@@ -1,0 +1,720 @@
+{
+  "schema_version": "v3.2-artifact",
+  "run_id": "20260909-070752",
+  "generated_at_utc": "2026-09-09T07:07:52Z",
+  "project_fingerprint": "213b510a3f16e65da0764198356169de53823611f38a89bb519f6884960c6131",
+  "artifact_type": "test-case-register",
+  "source_artifact_ids": [
+    "LOCAL-PRD",
+    "LOCAL-STATUS"
+  ],
+  "records": [
+    {
+      "test_id": "GAP-01-T01",
+      "gap_id": "GAP-01",
+      "kind": "happy",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-01-T02",
+      "gap_id": "GAP-01",
+      "kind": "happy",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-01-T03",
+      "gap_id": "GAP-01",
+      "kind": "happy",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-01-T04",
+      "gap_id": "GAP-01",
+      "kind": "happy",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-01-T05",
+      "gap_id": "GAP-01",
+      "kind": "failure",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-01-T06",
+      "gap_id": "GAP-01",
+      "kind": "failure",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-01-T07",
+      "gap_id": "GAP-01",
+      "kind": "failure",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-01-T08",
+      "gap_id": "GAP-01",
+      "kind": "boundary",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-01-T09",
+      "gap_id": "GAP-01",
+      "kind": "boundary",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-01-T10",
+      "gap_id": "GAP-01",
+      "kind": "boundary",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-02-T01",
+      "gap_id": "GAP-02",
+      "kind": "happy",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-02-T02",
+      "gap_id": "GAP-02",
+      "kind": "happy",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-02-T03",
+      "gap_id": "GAP-02",
+      "kind": "happy",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-02-T04",
+      "gap_id": "GAP-02",
+      "kind": "happy",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-02-T05",
+      "gap_id": "GAP-02",
+      "kind": "failure",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-02-T06",
+      "gap_id": "GAP-02",
+      "kind": "failure",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-02-T07",
+      "gap_id": "GAP-02",
+      "kind": "failure",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-02-T08",
+      "gap_id": "GAP-02",
+      "kind": "boundary",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-02-T09",
+      "gap_id": "GAP-02",
+      "kind": "boundary",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-02-T10",
+      "gap_id": "GAP-02",
+      "kind": "boundary",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-03-T01",
+      "gap_id": "GAP-03",
+      "kind": "happy",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-03-T02",
+      "gap_id": "GAP-03",
+      "kind": "happy",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-03-T03",
+      "gap_id": "GAP-03",
+      "kind": "happy",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-03-T04",
+      "gap_id": "GAP-03",
+      "kind": "happy",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-03-T05",
+      "gap_id": "GAP-03",
+      "kind": "failure",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-03-T06",
+      "gap_id": "GAP-03",
+      "kind": "failure",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-03-T07",
+      "gap_id": "GAP-03",
+      "kind": "failure",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-03-T08",
+      "gap_id": "GAP-03",
+      "kind": "boundary",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-03-T09",
+      "gap_id": "GAP-03",
+      "kind": "boundary",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-03-T10",
+      "gap_id": "GAP-03",
+      "kind": "boundary",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-04-T01",
+      "gap_id": "GAP-04",
+      "kind": "happy",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-04-T02",
+      "gap_id": "GAP-04",
+      "kind": "happy",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-04-T03",
+      "gap_id": "GAP-04",
+      "kind": "happy",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-04-T04",
+      "gap_id": "GAP-04",
+      "kind": "happy",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-04-T05",
+      "gap_id": "GAP-04",
+      "kind": "failure",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-04-T06",
+      "gap_id": "GAP-04",
+      "kind": "failure",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-04-T07",
+      "gap_id": "GAP-04",
+      "kind": "failure",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-04-T08",
+      "gap_id": "GAP-04",
+      "kind": "boundary",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-04-T09",
+      "gap_id": "GAP-04",
+      "kind": "boundary",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-04-T10",
+      "gap_id": "GAP-04",
+      "kind": "boundary",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-05-T01",
+      "gap_id": "GAP-05",
+      "kind": "happy",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-05-T02",
+      "gap_id": "GAP-05",
+      "kind": "happy",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-05-T03",
+      "gap_id": "GAP-05",
+      "kind": "happy",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-05-T04",
+      "gap_id": "GAP-05",
+      "kind": "happy",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-05-T05",
+      "gap_id": "GAP-05",
+      "kind": "failure",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-05-T06",
+      "gap_id": "GAP-05",
+      "kind": "failure",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-05-T07",
+      "gap_id": "GAP-05",
+      "kind": "failure",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-05-T08",
+      "gap_id": "GAP-05",
+      "kind": "boundary",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-05-T09",
+      "gap_id": "GAP-05",
+      "kind": "boundary",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-05-T10",
+      "gap_id": "GAP-05",
+      "kind": "boundary",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-06-T01",
+      "gap_id": "GAP-06",
+      "kind": "happy",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-06-T02",
+      "gap_id": "GAP-06",
+      "kind": "happy",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-06-T03",
+      "gap_id": "GAP-06",
+      "kind": "happy",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-06-T04",
+      "gap_id": "GAP-06",
+      "kind": "happy",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-06-T05",
+      "gap_id": "GAP-06",
+      "kind": "failure",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-06-T06",
+      "gap_id": "GAP-06",
+      "kind": "failure",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-06-T07",
+      "gap_id": "GAP-06",
+      "kind": "failure",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-06-T08",
+      "gap_id": "GAP-06",
+      "kind": "boundary",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-06-T09",
+      "gap_id": "GAP-06",
+      "kind": "boundary",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-06-T10",
+      "gap_id": "GAP-06",
+      "kind": "boundary",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-07-T01",
+      "gap_id": "GAP-07",
+      "kind": "happy",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-07-T02",
+      "gap_id": "GAP-07",
+      "kind": "happy",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-07-T03",
+      "gap_id": "GAP-07",
+      "kind": "happy",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-07-T04",
+      "gap_id": "GAP-07",
+      "kind": "happy",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-07-T05",
+      "gap_id": "GAP-07",
+      "kind": "failure",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-07-T06",
+      "gap_id": "GAP-07",
+      "kind": "failure",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-07-T07",
+      "gap_id": "GAP-07",
+      "kind": "failure",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-07-T08",
+      "gap_id": "GAP-07",
+      "kind": "boundary",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-07-T09",
+      "gap_id": "GAP-07",
+      "kind": "boundary",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-07-T10",
+      "gap_id": "GAP-07",
+      "kind": "boundary",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-08-T01",
+      "gap_id": "GAP-08",
+      "kind": "happy",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-08-T02",
+      "gap_id": "GAP-08",
+      "kind": "happy",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-08-T03",
+      "gap_id": "GAP-08",
+      "kind": "happy",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-08-T04",
+      "gap_id": "GAP-08",
+      "kind": "happy",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-08-T05",
+      "gap_id": "GAP-08",
+      "kind": "failure",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-08-T06",
+      "gap_id": "GAP-08",
+      "kind": "failure",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-08-T07",
+      "gap_id": "GAP-08",
+      "kind": "failure",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-08-T08",
+      "gap_id": "GAP-08",
+      "kind": "boundary",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-08-T09",
+      "gap_id": "GAP-08",
+      "kind": "boundary",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-08-T10",
+      "gap_id": "GAP-08",
+      "kind": "boundary",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-09-T01",
+      "gap_id": "GAP-09",
+      "kind": "happy",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-09-T02",
+      "gap_id": "GAP-09",
+      "kind": "happy",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-09-T03",
+      "gap_id": "GAP-09",
+      "kind": "happy",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-09-T04",
+      "gap_id": "GAP-09",
+      "kind": "happy",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-09-T05",
+      "gap_id": "GAP-09",
+      "kind": "failure",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-09-T06",
+      "gap_id": "GAP-09",
+      "kind": "failure",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-09-T07",
+      "gap_id": "GAP-09",
+      "kind": "failure",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-09-T08",
+      "gap_id": "GAP-09",
+      "kind": "boundary",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-09-T09",
+      "gap_id": "GAP-09",
+      "kind": "boundary",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-09-T10",
+      "gap_id": "GAP-09",
+      "kind": "boundary",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-10-T01",
+      "gap_id": "GAP-10",
+      "kind": "happy",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-10-T02",
+      "gap_id": "GAP-10",
+      "kind": "happy",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-10-T03",
+      "gap_id": "GAP-10",
+      "kind": "happy",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-10-T04",
+      "gap_id": "GAP-10",
+      "kind": "happy",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-10-T05",
+      "gap_id": "GAP-10",
+      "kind": "failure",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-10-T06",
+      "gap_id": "GAP-10",
+      "kind": "failure",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-10-T07",
+      "gap_id": "GAP-10",
+      "kind": "failure",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-10-T08",
+      "gap_id": "GAP-10",
+      "kind": "boundary",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-10-T09",
+      "gap_id": "GAP-10",
+      "kind": "boundary",
+      "status": "planned",
+      "evidence": null
+    },
+    {
+      "test_id": "GAP-10-T10",
+      "gap_id": "GAP-10",
+      "kind": "boundary",
+      "status": "planned",
+      "evidence": null
+    }
+  ],
+  "counts": {
+    "records": 100
+  },
+  "unknowns": [
+    "All tests are planned; no new target-environment execution was claimed."
+  ],
+  "warnings": []
+}

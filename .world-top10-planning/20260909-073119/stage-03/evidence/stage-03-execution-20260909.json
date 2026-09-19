@@ -1,0 +1,59 @@
+{
+  "stage_id": "STAGE-3-CORE",
+  "observed_at_utc": "2026-09-09T07:45:41Z",
+  "status": "PARTIAL_EVIDENCE",
+  "completion_claim": false,
+  "evidence_level": "DONE-A / DONE-S (virtual only)",
+  "commands": [
+    {
+      "command": "npm run stage3:simulate",
+      "exit_code": 0,
+      "result": {
+        "personas": 1000,
+        "days": 14,
+        "scenarios": 336000,
+        "outside_decisions": 133182,
+        "hood_eligible_decisions": 107184,
+        "violations": [],
+        "passed": true
+      },
+      "limitation": "가상 시나리오일 뿐 실제 매장·실제 오디오·실기기 증거가 아님"
+    },
+    {
+      "command": "npm run stage3:verify",
+      "exit_code": 1,
+      "result": {
+        "stage3_complete": false,
+        "reasons": [
+          "STAGE2_INCOMPLETE",
+          "ANDROID_PHYSICAL_TEST_REQUIRED",
+          "CHANNEL_8H_PLAYBACK_REQUIRED",
+          "REPETITION_POLICY_APPROVAL_REQUIRED",
+          "HOOD_5_STORES_14_DAYS_REQUIRED",
+          "MONTHLY_REFRESH_DRY_RUN_REQUIRED"
+        ]
+      }
+    },
+    {
+      "command": "npm test",
+      "exit_code": 0,
+      "result": "전체 로컬 검사 35개 파일 통과 (실제 음원·R2·실기기·실사용을 대신하지 않음)"
+    }
+  ],
+  "recheck": {
+    "command": "npm run stage3:verify",
+    "observed_at_utc": "2026-09-09T08:35:31.615Z",
+    "exit_code": 1,
+    "stage3_complete": false,
+    "expected_release_version": null,
+    "reasons": [
+      "STAGE2_INCOMPLETE",
+      "ANDROID_PHYSICAL_TEST_REQUIRED",
+      "CHANNEL_8H_PLAYBACK_REQUIRED",
+      "REPETITION_POLICY_APPROVAL_REQUIRED",
+      "HOOD_5_STORES_14_DAYS_REQUIRED",
+      "MONTHLY_REFRESH_DRY_RUN_REQUIRED"
+    ]
+  },
+  "next_gate": "실기기 재생·20채널별 8시간 기록·반복정책 승인·5곳 14일 익명 집계·월 교체 dry-run 증거를 연결한 뒤 stage3:verify 재실행"
+}

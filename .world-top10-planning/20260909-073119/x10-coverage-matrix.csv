@@ -1,0 +1,11 @@
+dimension,target,actual,status,reason
+"world_candidates",800,10,X10_PARTIAL_SCOPE,"공식·동일 문제 영역으로 확인된 10개 비교군만 사용"
+"common_atomic_indicators",1600,7,X10_PARTIAL_SCOPE,"이번 비교척도는 7개 핵심 차원"
+"core_atomic_indicators",100,7,shortfall,""
+"specialized_views",50,7,shortfall,""
+"task_variants",50,20,shortfall,""
+"decision_cells",400,20,shortfall,""
+"task_card_fields",96,96,met_per_card,""
+"virtual_edge_cases",10000,10000,generated_virtual,""
+"negative_samples",100,0,planned_not_executed,""
+"search_saturation_rounds",20,1,saturation_documented,""

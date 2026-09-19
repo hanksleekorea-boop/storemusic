@@ -1,0 +1,76 @@
+{
+  "schema_version": "v3.2-artifact",
+  "run_id": "20260909-071346",
+  "generated_at_utc": "2026-09-09T07:13:46Z",
+  "project_fingerprint": "213b510a3f16e65da0764198356169de53823611f38a89bb519f6884960c6131",
+  "artifact_type": "best-practice-synthesis",
+  "source_artifact_ids": [
+    "SRC-01",
+    "SRC-02",
+    "SRC-03",
+    "SRC-04",
+    "SRC-05",
+    "SRC-06",
+    "SRC-07",
+    "SRC-08",
+    "SRC-09",
+    "SRC-10"
+  ],
+  "records": [
+    {
+      "practice": "scheduled/daypart playback",
+      "observed_in": [
+        "Rockbot",
+        "Mood Media",
+        "Pandora CloudCover",
+        "SiriusXM",
+        "SoundMachine",
+        "Soundsuit",
+        "Music Your Brand"
+      ],
+      "fit": "adopt",
+      "product_action": "keep autoDial and document schedule fallback"
+    },
+    {
+      "practice": "commercial licensing clarity",
+      "observed_in": [
+        "Rockbot",
+        "Mood Media",
+        "Pandora CloudCover",
+        "SiriusXM",
+        "Soundsuit",
+        "Mubert Business",
+        "SHOPBGM"
+      ],
+      "fit": "adopt",
+      "product_action": "publish license scope and evidence"
+    },
+    {
+      "practice": "multi-location central control",
+      "observed_in": [
+        "Mood Media",
+        "Pandora CloudCover",
+        "SiriusXM",
+        "Soundsuit",
+        "Soundtrack"
+      ],
+      "fit": "defer",
+      "product_action": "out of current single-store scope"
+    },
+    {
+      "practice": "free trial",
+      "observed_in": [
+        "Pandora CloudCover",
+        "Music Your Brand",
+        "Soundsuit"
+      ],
+      "fit": "reject_for_now",
+      "product_action": "preserve product decision: no free tier; grant credits only"
+    }
+  ],
+  "counts": {
+    "records": 4
+  },
+  "unknowns": [],
+  "warnings": []
+}

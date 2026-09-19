@@ -1,0 +1,98 @@
+{
+  "stage_id": "STAGE-4-QUALITY",
+  "observed_at_utc": "2026-09-09T07:52:08Z",
+  "status": "PARTIAL_EVIDENCE",
+  "completion_claim": false,
+  "evidence_level": "DONE-A / DONE-B (public static checks only)",
+  "commands": [
+    {
+      "command": "npm run site:preflight",
+      "exit_code": 0,
+      "result": {
+        "total_bytes": 879905,
+        "file_count": 117,
+        "increased_bytes": 0,
+        "errors": [],
+        "export_contract": "117 public assets, 9 required routes"
+      }
+    },
+    {
+      "command": "npm run cloudflare:verify",
+      "exit_code": 0,
+      "result": {
+        "origin": "https://freestoremusic.scanners.cc",
+        "tree_sha256": "a241c7f736b6faf98c0567b392c09cce933b10cc3d020cb2f1e586b345f1e43a",
+        "files": 117,
+        "routes": 17,
+        "file_failures": [],
+        "route_failures": [],
+        "runtime": "static-preview",
+        "backend_available": false,
+        "payment_available": false,
+        "physical_phone": "NOT_TESTED",
+        "live_audio": "UNAVAILABLE"
+      },
+      "limitation": "공개 정적 판 검증이며 인증·DB·결제·실시간 오디오의 대상환경 증거가 아님"
+    },
+    {
+      "command": "npm run android:check",
+      "exit_code": 0,
+      "result": {
+        "adb_available": true,
+        "connected_device_count": 0,
+        "actual_device_test": false,
+        "status": "no_device_connected",
+        "apk_bytes": 3615649
+      }
+    },
+    {
+      "command": "npm run web:build",
+      "exit_code": 1,
+      "result": "Windows Application Control이 next-swc-win32-x64-msvc.node 로드를 차단하여 이번 실행은 중단됨",
+      "limitation": "이 실행의 빌드 통과를 주장하지 않음; WASM fallback이 완료되는 별도 대상환경 실행 필요"
+    },
+    {
+      "command": "npm run test:static",
+      "exit_code": null,
+      "result": "로컬 preview 기동 후 테스트 하네스가 응답 없이 대기하여 완료 증거를 만들지 못함",
+      "limitation": "미검증으로 유지"
+    },
+    {
+      "command": "npm test",
+      "exit_code": 0,
+      "result": "전체 로컬 검사 35개 파일 통과"
+    }
+  ],
+  "recheck": {
+    "command": "npm run cloudflare:verify",
+    "checked_at_utc": "2026-09-09T08:32:41.159Z",
+    "exit_code": 0,
+    "tree_sha256": "a241c7f736b6faf98c0567b392c09cce933b10cc3d020cb2f1e586b345f1e43a",
+    "files_checked": 117,
+    "routes_checked": 17,
+    "file_failures": [],
+    "route_failures": [],
+    "sensitive_probes": "all 404",
+    "runtime_mode": "static-preview",
+    "backend_available": false,
+    "payment_available": false,
+    "production_account_api": "NOT_CONNECTED",
+    "physical_phone": "NOT_TESTED",
+    "live_audio": "UNAVAILABLE"
+  },
+  "browser_ui_recheck": {
+    "command": "node scripts/verify_final_domain_browser.cjs",
+    "observed_at_utc": "2026-09-09T08:37:48.880Z",
+    "result_observed": {
+      "states": 34,
+      "unexpected_external_requests": [],
+      "all_cross_origin_traffic_blocked": true,
+      "staff_buttons_clicked": 2,
+      "registration_disabled": true,
+      "physical_phone": "NOT_TESTED"
+    },
+    "process_exit_code": 1,
+    "limitation": "검사 결과 출력 후 Chrome 정리 단계가 응답하지 않아 실행을 중단했다. 대상환경 전체 완료로 승격하지 않음"
+  },
+  "next_gate": "실제 기기·키보드/화면읽기·느린망·오프라인·로그인·결제·복구 시험과 대상환경 빌드 증거를 확보한 뒤 stage4 품질 게이트 재실행"
+}
